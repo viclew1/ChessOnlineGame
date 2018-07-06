@@ -1,6 +1,6 @@
 package pieces;
 
-import déplacements.Mouvement;
+import deplacements.Mouvement;
 
 public class Reine extends Piece{
 

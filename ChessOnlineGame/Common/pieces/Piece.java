@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import common.Point;
-import déplacements.Mouvement;
+import deplacements.Mouvement;
 
 public class Piece{
 
@@ -105,7 +105,7 @@ public class Piece{
 		{
 			Mouvement m=mouvement().get(i);
 			int dMax=1;
-			if (!m.limité())
+			if (!m.isLimite())
 				dMax=7;
 
 
